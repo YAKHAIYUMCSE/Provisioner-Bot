@@ -1,0 +1,8 @@
+allowed_envs:
+  - dev
+  - test
+  - qa
+
+allowed_types:
+  - ec2
+  - docker

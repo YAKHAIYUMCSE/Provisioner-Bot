@@ -1,0 +1,10 @@
+allowed_envs:
+  - dev
+  - qa
+  - staging
+  - prod
+allowed_types:
+  - docker
+  - aws
+  - terraform
+max_services: 5

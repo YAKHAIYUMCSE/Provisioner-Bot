@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+aiosqlite
+pyyaml
+PyGithub
+python-dotenv
+jinja2
+requests
+httpx
+pytest
+pytest-asyncio
+anyio[trio]
