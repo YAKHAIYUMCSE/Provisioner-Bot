@@ -31,7 +31,7 @@ The workflow `.github/workflows/auto_provision.yml` triggers on issues labeled `
 ## User interface
 A simple UI is available at `ui/app.py` to let users submit provisioning requests through a web form.
 It creates a GitHub issue labeled `auto-provision` so the existing workflow can run.
-
+ 
 Run the UI locally with:
 
 ```powershell
