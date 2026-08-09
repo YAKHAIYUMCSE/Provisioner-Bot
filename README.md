@@ -34,7 +34,7 @@ It creates a GitHub issue labeled `auto-provision` so the existing workflow can 
  
 Run the UI locally with:
 
-```powershell
+```powershell 
 $env:GITHUB_TOKEN = "ghp_xxx"
 $env:GITHUB_REPOSITORY = "owner/repo"
 py -3 -m uvicorn ui.app:app --reload --port 8002
