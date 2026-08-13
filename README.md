@@ -21,7 +21,7 @@ py -3 -m uvicorn policy_engine.main:app --reload --port 8001
 
 ```powershell 
 py -3 automation/handle_issue.py --event-path sample-event.json --dry-run
-```
+``` 
 
 4. To perform an actual run (will push and open PR), ensure `GITHUB_TOKEN` and `GITHUB_REPOSITORY` are set and run without `--dry-run`.
 
