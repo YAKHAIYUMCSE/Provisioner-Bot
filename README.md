@@ -7,7 +7,7 @@ This repository contains automation to accept issue-based requests, validate the
 1. Create and export a GitHub token (for local testing only):
  
 ```powershell
-$env:GITHUB_TOKEN = "ghp_xxx" 
+$env:GITHUB_TOKEN = "ghp_xxx"  
 $env:GITHUB_REPOSITORY = "owner/repo"
 ``` 
 
