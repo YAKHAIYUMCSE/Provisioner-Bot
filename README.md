@@ -68,7 +68,7 @@ Required setup to actually run Terraform in CI:
 - Add your cloud credentials as repository secrets (example names): `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `GOOGLE_CREDENTIALS`, etc., depending on provider.
 - Configure a `production` environment under the repository Settings → Environments and add one or more approvers. The `apply_infra.yml` job uses this environment to require manual approval before performing `terraform apply`.
 - Ensure the `generated/` folder contains a valid Terraform configuration at merge time (the automation creates these files in the PR).
-
+ 
 Local smoke test (recommended):
 
 ```powershell
