@@ -16,7 +16,7 @@ $env:GITHUB_REPOSITORY = "owner/repo"
 ```powershell   
 py -3 -m uvicorn policy_engine.main:app --reload --port 8001 
 ```  
-  
+     
 3. Run the automation handler in dry-run mode (safe):
 
 ```powershell 
@@ -30,7 +30,7 @@ The workflow `.github/workflows/auto_provision.yml` triggers on issues labeled `
 
 ## User interface 
 A simple UI is available at `ui/app.py` to let users submit provisioning requests through a web form.
-It creates a GitHub issue labeled `auto-provision` so the existing workflow can run.
+It creates a GitHub issue labeled `auto-provision` so the existing workflow can run. 
  
 Run the UI locally with:
 
