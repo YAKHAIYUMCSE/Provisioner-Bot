@@ -80,7 +80,7 @@ py -3 automation/handle_issue.py --event-path sample-event.json --dry-run
 
 # Inspect the generated files
 dir generated
-
+ 
 # If you want to try terraform locally (requires terraform installed):
 cd generated
 terraform init
