@@ -83,7 +83,7 @@ dir generated
  
 # If you want to try terraform locally (requires terraform installed):
 cd generated
-terraform init
+terraform init   
 terraform plan
 terraform apply -auto-approve
 ```
